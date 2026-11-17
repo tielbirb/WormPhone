@@ -24,6 +24,14 @@ jobs:
         with:
           gradle-version: "8.7"
 
+      # If the project was uploaded as a zip, unpack it first.
+      - name: Unzip project zip
+        run: |
+          for z in *.zip; do
+            [ -f "$z" ] && unzip -oq "$z"
+          done
+          true
+
       # Finds the project even if it was uploaded inside a subfolder.
       - name: Locate project
         id: proj
