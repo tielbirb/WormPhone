@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="Wormphone banner" width="720"></p>
+<p align="center"><img src="banner.svg" alt="Wormphone banner" width="720"></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-Android%208.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 8.0+">
